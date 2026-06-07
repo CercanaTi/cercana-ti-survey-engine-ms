@@ -17,6 +17,10 @@ import { InternalApiKeyGuard } from './common/guards/internal-api-key.guard';
 import { GlobalExceptionFilter } from './common/filters/global-exception.filter';
 import { CommonModule } from './common/common.module';
 import { ResponsesModule } from './modules/responses/responses.module';
+import { ScoringModule } from './modules/scoring/scoring.module';
+import { AnalyticsModule } from './modules/analytics/analytics.module';
+import { ReportsModule } from './modules/reports/reports.module';
+import { ResultsModule } from './modules/results/results.module';
 
 @Module({
   imports: [
@@ -48,6 +52,10 @@ import { ResponsesModule } from './modules/responses/responses.module';
 
     CommonModule,
     ResponsesModule,
+    ScoringModule,
+    AnalyticsModule,
+    ReportsModule,
+    ResultsModule,
   ],
   controllers: [AppController],
   providers: [

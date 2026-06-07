@@ -10,4 +10,6 @@ export const appConfig = registerAs('app', () => ({
   adminServiceUrl: process.env.ADMIN_SERVICE_URL ?? 'http://localhost:3000',
   reportExpirationHours: parseInt(process.env.REPORT_EXPIRATION_HOURS ?? '24', 10),
   storageBucketReports: process.env.STORAGE_BUCKET_REPORTS ?? 'sed-rd-reports',
+  supabaseUrl: process.env.SUPABASE_URL ?? '',
+  supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY ?? '',
 }));
