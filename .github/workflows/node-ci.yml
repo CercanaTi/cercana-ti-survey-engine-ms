@@ -1,0 +1,59 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [integration, main, develop]
+  pull_request:
+    branches: [integration, main, develop, qa, prod]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check formatting
+        run: npm run format:check
+
+      - name: Run lint
+        run: npm run lint
+
+      - name: Build project
+        run: npm run build
+
+      - name: Run tests with coverage
+        run: npm test
+
+  check-pr-source:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Validate PR source branch
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request;
+            const target = pr.base.ref;
+            const source = pr.head.ref;
+
+            // QA only from develop
+            if (target === 'qa' && source !== 'develop') {
+              core.setFailed(`PR to QA must come from 'develop', but source is '${source}'`);
+            }
+
+            // PROD only from QA
+            if (target === 'prod' && source !== 'qa') {
+              core.setFailed(`PR to PROD must come from 'qa', but source is '${source}'`);
+            }
