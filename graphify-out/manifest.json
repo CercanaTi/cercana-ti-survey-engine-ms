@@ -1,0 +1,102 @@
+{
+  "eslint.config.js": {
+    "mtime": 1780617339.4607952,
+    "ast_hash": "bf602ffa4bd99e176e197f5a60c2bf05",
+    "semantic_hash": ""
+  },
+  "healthcheck.js": {
+    "mtime": 1780789218.6634617,
+    "ast_hash": "68cfced44979ccd38ed33f33b1832f14",
+    "semantic_hash": ""
+  },
+  "jest.config.js": {
+    "mtime": 1780831616.7272584,
+    "ast_hash": "63b8bf018bffda0737173b8908fb5ee6",
+    "semantic_hash": ""
+  },
+  "jest.integration.config.js": {
+    "mtime": 1780788704.6925457,
+    "ast_hash": "0fe53686213d1364641b72ddcd1ec5b4",
+    "semantic_hash": ""
+  },
+  "nest-cli.json": {
+    "mtime": 1780845213.346466,
+    "ast_hash": "fa439650fa28a1a7aa8c2b6d81c8cc20",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1780845213.3503149,
+    "ast_hash": "62b85e995f154367ada2ce30b0b629cd",
+    "semantic_hash": ""
+  },
+  "src/__tests__/app.controller.spec.ts": {
+    "mtime": 1780846205.9289758,
+    "ast_hash": "6d77dd48d796d5df5863e76db58bdc90",
+    "semantic_hash": ""
+  },
+  "src/__tests__/app.service.spec.ts": {
+    "mtime": 1780846205.9483237,
+    "ast_hash": "786908d0e70e823e6defce16f8e8e7de",
+    "semantic_hash": ""
+  },
+  "src/app.controller.ts": {
+    "mtime": 1780846205.96049,
+    "ast_hash": "6e4244bd67825944c6de5e80b62138de",
+    "semantic_hash": ""
+  },
+  "src/app.module.ts": {
+    "mtime": 1780846205.9717624,
+    "ast_hash": "20c4c0e641b238d47cea99aaa00f97fc",
+    "semantic_hash": ""
+  },
+  "src/app.service.ts": {
+    "mtime": 1780846205.9835098,
+    "ast_hash": "19ee3f6d037eb52f3ff6d99c9ebfc852",
+    "semantic_hash": ""
+  },
+  "src/main.ts": {
+    "mtime": 1780846206.0471346,
+    "ast_hash": "6fcc32a93e6dc21a07f9e72ae94400e9",
+    "semantic_hash": ""
+  },
+  "tsconfig.build.json": {
+    "mtime": 1780845213.3615265,
+    "ast_hash": "d23fc4aff02c91ce9c424c15aea9b49b",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1780613006.245582,
+    "ast_hash": "0312f686a163f6766b5325bcd86864ff",
+    "semantic_hash": ""
+  },
+  ".github/agent.md": {
+    "mtime": 1780845213.3345802,
+    "ast_hash": "4faefd154af1fac09619c6ef348bff16",
+    "semantic_hash": ""
+  },
+  ".github/pull_request_template.md": {
+    "mtime": 1780845213.346466,
+    "ast_hash": "1ad2bce05f2b815b1568e1b039a3333f",
+    "semantic_hash": ""
+  },
+  ".github/workflows/node-ci.yml": {
+    "mtime": 1780845213.346466,
+    "ast_hash": "5b5940a94fa20472a9ecea725320fdf1",
+    "semantic_hash": ""
+  },
+  "14-engine-bootstrap-and-core.md": {
+    "mtime": 1780605166.0966296,
+    "ast_hash": "eda6848c9c69552bebe9607487a3cfb7",
+    "semantic_hash": ""
+  },
+  "15-engine-scoring-analytics-reports.md": {
+    "mtime": 1780605166.2079432,
+    "ast_hash": "7f934793bde7b1d5b861fb1d72107280",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1780845213.346466,
+    "ast_hash": "d7cd549c08a3b65f49cc6600d659850e",
+    "semantic_hash": ""
+  }
+}

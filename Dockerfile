@@ -1,44 +1,39 @@
-# ─── Build stage ──────────────────────────────────────────────────────────────
-FROM node:20-alpine AS builder
+# Multi-stage build for optimized production image
+FROM public.ecr.aws/docker/library/node:24-alpine AS base
 
-WORKDIR /app
+# Upgrade all packages to patch OS vulnerabilities and install dumb-init
+RUN apk upgrade --no-cache && apk add --no-cache dumb-init
+
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-# Install all deps (including devDependencies needed to compile)
+# ─── Development stage ────────────────────────────────────────────────────────
+FROM base AS development
 RUN npm ci
-
 COPY . .
+EXPOSE 3000
+CMD ["npm", "run", "start:dev"]
 
-RUN npm run build
+# ─── Build stage ──────────────────────────────────────────────────────────────
+FROM base AS build
+RUN npm ci --include=dev
+COPY . .
+RUN npm run build && npm prune --production
 
-# ─── Production deps (no devDependencies) ─────────────────────────────────────
-FROM node:20-alpine AS deps
+# ─── Production stage ─────────────────────────────────────────────────────────
+FROM base AS production
 
-WORKDIR /app
+COPY --from=build --chown=node:node /usr/src/app/dist ./dist
+COPY --from=build --chown=node:node /usr/src/app/node_modules ./node_modules
+COPY --chown=node:node healthcheck.js ./healthcheck.js
 
-COPY package*.json ./
-RUN npm ci --omit=dev
-
-# ─── Production image ─────────────────────────────────────────────────────────
-FROM node:20-alpine AS production
-
-WORKDIR /app
-
-# Non-root user for security
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
-
-COPY --from=deps    /app/node_modules ./node_modules
-COPY --from=builder /app/dist         ./dist
-COPY --from=builder /app/package.json ./package.json
-
-USER appuser
-
-ENV NODE_ENV=production
+USER node
 
 EXPOSE 3000
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-  CMD wget -qO- http://localhost:3000/health || exit 1
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD node healthcheck.js
 
-CMD ["node", "dist/main"]
+ENTRYPOINT ["dumb-init", "--"]
+CMD ["npm", "run", "start:prod"]

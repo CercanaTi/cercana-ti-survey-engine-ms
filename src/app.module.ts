@@ -2,14 +2,10 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { ThrottlerModule } from '@nestjs/throttler';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { CommonModule } from './common/common.module';
-import { CustomerModule } from './modules/customer/customer.module';
-import { CompanyModule } from './modules/company/company.module';
 import { DatabaseConfig } from './config/database.config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { LoggerModule } from 'nestjs-pino';
-import { RequestTrackingMiddleware } from './common/middlewares/correlation-id.middleware';
 import { loggerConfig } from './config/logger.config';
 
 @Module({
@@ -31,16 +27,12 @@ import { loggerConfig } from './config/logger.config';
     TypeOrmModule.forRootAsync({
       useClass: DatabaseConfig,
     }),
-
-    CommonModule,
-    CustomerModule,
-    CompanyModule,
   ],
   controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer.apply(RequestTrackingMiddleware).forRoutes('*');
+    // consumer.apply(RequestTrackingMiddleware).forRoutes('*');
   }
 }

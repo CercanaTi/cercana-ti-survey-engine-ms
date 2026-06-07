@@ -1,0 +1,5021 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "id": "eslint_config",
+      "community": 22,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L2",
+      "id": "eslint_config_eslint",
+      "community": 22,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "tseslint",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L3",
+      "id": "eslint_config_tseslint",
+      "community": 22,
+      "norm_label": "tseslint"
+    },
+    {
+      "label": "prettierRecommended",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L4",
+      "id": "eslint_config_prettierrecommended",
+      "community": 22,
+      "norm_label": "prettierrecommended"
+    },
+    {
+      "label": "healthcheck.js",
+      "file_type": "code",
+      "source_file": "healthcheck.js",
+      "source_location": "L1",
+      "id": "healthcheck",
+      "community": 23,
+      "norm_label": "healthcheck.js"
+    },
+    {
+      "label": "http",
+      "file_type": "code",
+      "source_file": "healthcheck.js",
+      "source_location": "L1",
+      "id": "healthcheck_http",
+      "community": 23,
+      "norm_label": "http"
+    },
+    {
+      "label": "options",
+      "file_type": "code",
+      "source_file": "healthcheck.js",
+      "source_location": "L3",
+      "id": "healthcheck_options",
+      "community": 23,
+      "norm_label": "options"
+    },
+    {
+      "label": "request",
+      "file_type": "code",
+      "source_file": "healthcheck.js",
+      "source_location": "L10",
+      "id": "healthcheck_request",
+      "community": 23,
+      "norm_label": "request"
+    },
+    {
+      "label": "jest.config.js",
+      "file_type": "code",
+      "source_file": "jest.config.js",
+      "source_location": "L1",
+      "id": "jest_config",
+      "community": 25,
+      "norm_label": "jest.config.js"
+    },
+    {
+      "label": "jest.integration.config.js",
+      "file_type": "code",
+      "source_file": "jest.integration.config.js",
+      "source_location": "L1",
+      "id": "jest_integration_config",
+      "community": 26,
+      "norm_label": "jest.integration.config.js"
+    },
+    {
+      "label": "nest-cli.json",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L1",
+      "id": "nest_cli",
+      "community": 15,
+      "norm_label": "nest-cli.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L2",
+      "id": "nest_cli_schema",
+      "community": 15,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "collection",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L3",
+      "id": "nest_cli_collection",
+      "community": 15,
+      "norm_label": "collection"
+    },
+    {
+      "label": "sourceRoot",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L4",
+      "id": "nest_cli_sourceroot",
+      "community": 15,
+      "norm_label": "sourceroot"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L5",
+      "id": "nest_cli_compileroptions",
+      "community": 15,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "deleteOutDir",
+      "file_type": "code",
+      "source_file": "nest-cli.json",
+      "source_location": "L6",
+      "id": "nest_cli_compileroptions_deleteoutdir",
+      "community": 15,
+      "norm_label": "deleteoutdir"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package",
+      "community": 5,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "package_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "package_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "package_description",
+      "community": 5,
+      "norm_label": "description"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "package_author",
+      "community": 5,
+      "norm_label": "author"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "package_private",
+      "community": 5,
+      "norm_label": "private"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "package_license",
+      "community": 5,
+      "norm_label": "license"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "package_scripts",
+      "community": 6,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "package_scripts_build",
+      "community": 6,
+      "norm_label": "build"
+    },
+    {
+      "label": "format",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "package_scripts_format",
+      "community": 6,
+      "norm_label": "format"
+    },
+    {
+      "label": "format:check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "package_scripts_format_check",
+      "community": 6,
+      "norm_label": "format:check"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "package_scripts_start",
+      "community": 6,
+      "norm_label": "start"
+    },
+    {
+      "label": "start:dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "package_scripts_start_dev",
+      "community": 6,
+      "norm_label": "start:dev"
+    },
+    {
+      "label": "start:debug",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "package_scripts_start_debug",
+      "community": 6,
+      "norm_label": "start:debug"
+    },
+    {
+      "label": "start:prod",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "package_scripts_start_prod",
+      "community": 6,
+      "norm_label": "start:prod"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "package_scripts_lint",
+      "community": 6,
+      "norm_label": "lint"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "package_scripts_test",
+      "community": 6,
+      "norm_label": "test"
+    },
+    {
+      "label": "test:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "package_scripts_test_watch",
+      "community": 6,
+      "norm_label": "test:watch"
+    },
+    {
+      "label": "test:cov",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "package_scripts_test_cov",
+      "community": 6,
+      "norm_label": "test:cov"
+    },
+    {
+      "label": "test:debug",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "package_scripts_test_debug",
+      "community": 6,
+      "norm_label": "test:debug"
+    },
+    {
+      "label": "typeorm",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "package_scripts_typeorm",
+      "community": 6,
+      "norm_label": "typeorm"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "package_dependencies",
+      "community": 1,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "@nestjs/axios",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "package_dependencies_nestjs_axios",
+      "community": 1,
+      "norm_label": "@nestjs/axios"
+    },
+    {
+      "label": "@nestjs/common",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "package_dependencies_nestjs_common",
+      "community": 1,
+      "norm_label": "@nestjs/common"
+    },
+    {
+      "label": "@nestjs/config",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "package_dependencies_nestjs_config",
+      "community": 1,
+      "norm_label": "@nestjs/config"
+    },
+    {
+      "label": "@nestjs/core",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "package_dependencies_nestjs_core",
+      "community": 1,
+      "norm_label": "@nestjs/core"
+    },
+    {
+      "label": "@nestjs/platform-express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "package_dependencies_nestjs_platform_express",
+      "community": 1,
+      "norm_label": "@nestjs/platform-express"
+    },
+    {
+      "label": "@nestjs/swagger",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "package_dependencies_nestjs_swagger",
+      "community": 1,
+      "norm_label": "@nestjs/swagger"
+    },
+    {
+      "label": "@nestjs/throttler",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "package_dependencies_nestjs_throttler",
+      "community": 1,
+      "norm_label": "@nestjs/throttler"
+    },
+    {
+      "label": "@nestjs/typeorm",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "package_dependencies_nestjs_typeorm",
+      "community": 1,
+      "norm_label": "@nestjs/typeorm"
+    },
+    {
+      "label": "@supabase/supabase-js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "package_dependencies_supabase_supabase_js",
+      "community": 1,
+      "norm_label": "@supabase/supabase-js"
+    },
+    {
+      "label": "axios",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "id": "package_dependencies_axios",
+      "community": 1,
+      "norm_label": "axios"
+    },
+    {
+      "label": "class-transformer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "id": "package_dependencies_class_transformer",
+      "community": 1,
+      "norm_label": "class-transformer"
+    },
+    {
+      "label": "class-validator",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "id": "package_dependencies_class_validator",
+      "community": 1,
+      "norm_label": "class-validator"
+    },
+    {
+      "label": "compression",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "id": "package_dependencies_compression",
+      "community": 1,
+      "norm_label": "compression"
+    },
+    {
+      "label": "dd-trace",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "id": "package_dependencies_dd_trace",
+      "community": 1,
+      "norm_label": "dd-trace"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "id": "package_dependencies_dotenv",
+      "community": 1,
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "helmet",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "id": "package_dependencies_helmet",
+      "community": 1,
+      "norm_label": "helmet"
+    },
+    {
+      "label": "nestjs-pino",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "id": "package_dependencies_nestjs_pino",
+      "community": 1,
+      "norm_label": "nestjs-pino"
+    },
+    {
+      "label": "pg",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "id": "package_dependencies_pg",
+      "community": 1,
+      "norm_label": "pg"
+    },
+    {
+      "label": "pino",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "id": "package_dependencies_pino",
+      "community": 1,
+      "norm_label": "pino"
+    },
+    {
+      "label": "pino-pretty",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "id": "package_dependencies_pino_pretty",
+      "community": 1,
+      "norm_label": "pino-pretty"
+    },
+    {
+      "label": "reflect-metadata",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "id": "package_dependencies_reflect_metadata",
+      "community": 1,
+      "norm_label": "reflect-metadata"
+    },
+    {
+      "label": "rxjs",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "id": "package_dependencies_rxjs",
+      "community": 1,
+      "norm_label": "rxjs"
+    },
+    {
+      "label": "typeorm",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "id": "package_dependencies_typeorm",
+      "community": 1,
+      "norm_label": "typeorm"
+    },
+    {
+      "label": "winston",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "id": "package_dependencies_winston",
+      "community": 1,
+      "norm_label": "winston"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "id": "package_devdependencies",
+      "community": 2,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "id": "package_devdependencies_eslint_js",
+      "community": 2,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@nestjs/cli",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "id": "package_devdependencies_nestjs_cli",
+      "community": 2,
+      "norm_label": "@nestjs/cli"
+    },
+    {
+      "label": "@nestjs/schematics",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "id": "package_devdependencies_nestjs_schematics",
+      "community": 2,
+      "norm_label": "@nestjs/schematics"
+    },
+    {
+      "label": "@nestjs/testing",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "id": "package_devdependencies_nestjs_testing",
+      "community": 2,
+      "norm_label": "@nestjs/testing"
+    },
+    {
+      "label": "@types/compression",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "id": "package_devdependencies_types_compression",
+      "community": 2,
+      "norm_label": "@types/compression"
+    },
+    {
+      "label": "@types/express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "id": "package_devdependencies_types_express",
+      "community": 2,
+      "norm_label": "@types/express"
+    },
+    {
+      "label": "@types/jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L56",
+      "id": "package_devdependencies_types_jest",
+      "community": 2,
+      "norm_label": "@types/jest"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L57",
+      "id": "package_devdependencies_types_node",
+      "community": 2,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L58",
+      "id": "package_devdependencies_eslint",
+      "community": 2,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-config-prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L59",
+      "id": "package_devdependencies_eslint_config_prettier",
+      "community": 2,
+      "norm_label": "eslint-config-prettier"
+    },
+    {
+      "label": "eslint-plugin-prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L60",
+      "id": "package_devdependencies_eslint_plugin_prettier",
+      "community": 2,
+      "norm_label": "eslint-plugin-prettier"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L61",
+      "id": "package_devdependencies_jest",
+      "community": 2,
+      "norm_label": "jest"
+    },
+    {
+      "label": "prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L62",
+      "id": "package_devdependencies_prettier",
+      "community": 2,
+      "norm_label": "prettier"
+    },
+    {
+      "label": "source-map-support",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L63",
+      "id": "package_devdependencies_source_map_support",
+      "community": 2,
+      "norm_label": "source-map-support"
+    },
+    {
+      "label": "ts-jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L64",
+      "id": "package_devdependencies_ts_jest",
+      "community": 2,
+      "norm_label": "ts-jest"
+    },
+    {
+      "label": "ts-node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L65",
+      "id": "package_devdependencies_ts_node",
+      "community": 2,
+      "norm_label": "ts-node"
+    },
+    {
+      "label": "tsconfig-paths",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L66",
+      "id": "package_devdependencies_tsconfig_paths",
+      "community": 2,
+      "norm_label": "tsconfig-paths"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L67",
+      "id": "package_devdependencies_typescript",
+      "community": 2,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L68",
+      "id": "package_devdependencies_typescript_eslint",
+      "community": 2,
+      "norm_label": "typescript-eslint"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L70",
+      "id": "package_jest",
+      "community": 5,
+      "norm_label": "jest"
+    },
+    {
+      "label": "moduleFileExtensions",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L71",
+      "id": "package_jest_modulefileextensions",
+      "community": 5,
+      "norm_label": "modulefileextensions"
+    },
+    {
+      "label": "rootDir",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L72",
+      "id": "package_jest_rootdir",
+      "community": 5,
+      "norm_label": "rootdir"
+    },
+    {
+      "label": "testRegex",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L73",
+      "id": "package_jest_testregex",
+      "community": 5,
+      "norm_label": "testregex"
+    },
+    {
+      "label": "transform",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L74",
+      "id": "package_jest_transform",
+      "community": 5,
+      "norm_label": "transform"
+    },
+    {
+      "label": "^.+\\\\.(t|j)s$",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L75",
+      "id": "package_transform_t_j_s",
+      "community": 5,
+      "norm_label": "^.+\\\\.(t|j)s$"
+    },
+    {
+      "label": "collectCoverageFrom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L77",
+      "id": "package_jest_collectcoveragefrom",
+      "community": 5,
+      "norm_label": "collectcoveragefrom"
+    },
+    {
+      "label": "coverageDirectory",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L83",
+      "id": "package_jest_coveragedirectory",
+      "community": 5,
+      "norm_label": "coveragedirectory"
+    },
+    {
+      "label": "testEnvironment",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L84",
+      "id": "package_jest_testenvironment",
+      "community": 5,
+      "norm_label": "testenvironment"
+    },
+    {
+      "label": "app.controller.spec.ts",
+      "file_type": "code",
+      "source_file": "src/__tests__/app.controller.spec.ts",
+      "source_location": "L1",
+      "id": "tests_app_controller_spec",
+      "community": 4,
+      "norm_label": "app.controller.spec.ts"
+    },
+    {
+      "label": "app.service.spec.ts",
+      "file_type": "code",
+      "source_file": "src/__tests__/app.service.spec.ts",
+      "source_location": "L1",
+      "id": "tests_app_service_spec",
+      "community": 4,
+      "norm_label": "app.service.spec.ts"
+    },
+    {
+      "label": "app.controller.ts",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L1",
+      "id": "src_app_controller",
+      "community": 4,
+      "norm_label": "app.controller.ts"
+    },
+    {
+      "label": "AppController",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L7",
+      "id": "src_app_controller_appcontroller",
+      "community": 4,
+      "norm_label": "appcontroller"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L8",
+      "id": "src_app_controller_appcontroller_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getHealth()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L12",
+      "id": "src_app_controller_appcontroller_gethealth",
+      "community": 4,
+      "norm_label": ".gethealth()"
+    },
+    {
+      "label": ".getDetailedHealth()",
+      "file_type": "code",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L18",
+      "id": "src_app_controller_appcontroller_getdetailedhealth",
+      "community": 4,
+      "norm_label": ".getdetailedhealth()"
+    },
+    {
+      "label": "app.module.ts",
+      "file_type": "code",
+      "source_file": "src/app.module.ts",
+      "source_location": "L1",
+      "id": "src_app_module",
+      "community": 4,
+      "norm_label": "app.module.ts"
+    },
+    {
+      "label": "AppModule",
+      "file_type": "code",
+      "source_file": "src/app.module.ts",
+      "source_location": "L34",
+      "id": "src_app_module_appmodule",
+      "community": 4,
+      "norm_label": "appmodule"
+    },
+    {
+      "label": ".configure()",
+      "file_type": "code",
+      "source_file": "src/app.module.ts",
+      "source_location": "L35",
+      "id": "src_app_module_appmodule_configure",
+      "community": 4,
+      "norm_label": ".configure()"
+    },
+    {
+      "label": "app.service.ts",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L1",
+      "id": "src_app_service",
+      "community": 4,
+      "norm_label": "app.service.ts"
+    },
+    {
+      "label": "AppService",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L7",
+      "id": "src_app_service_appservice",
+      "community": 4,
+      "norm_label": "appservice"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L8",
+      "id": "src_app_service_appservice_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getHealth()",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L10",
+      "id": "src_app_service_appservice_gethealth",
+      "community": 4,
+      "norm_label": ".gethealth()"
+    },
+    {
+      "label": ".getDetailedHealth()",
+      "file_type": "code",
+      "source_file": "src/app.service.ts",
+      "source_location": "L18",
+      "id": "src_app_service_appservice_getdetailedhealth",
+      "community": 4,
+      "norm_label": ".getdetailedhealth()"
+    },
+    {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "src/main.ts",
+      "source_location": "L1",
+      "id": "src_main",
+      "community": 4,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "bootstrap()",
+      "file_type": "code",
+      "source_file": "src/main.ts",
+      "source_location": "L13",
+      "id": "src_main_bootstrap",
+      "community": 4,
+      "norm_label": "bootstrap()"
+    },
+    {
+      "label": "tsconfig.build.json",
+      "file_type": "code",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L1",
+      "id": "tsconfig_build",
+      "community": 24,
+      "norm_label": "tsconfig.build.json"
+    },
+    {
+      "label": "extends",
+      "file_type": "code",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L2",
+      "id": "tsconfig_build_extends",
+      "community": 24,
+      "norm_label": "extends"
+    },
+    {
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L3",
+      "id": "tsconfig_build_exclude",
+      "community": 24,
+      "norm_label": "exclude"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "id": "tsconfig",
+      "community": 3,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "id": "tsconfig_compileroptions",
+      "community": 3,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "id": "tsconfig_compileroptions_module",
+      "community": 3,
+      "norm_label": "module"
+    },
+    {
+      "label": "declaration",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "id": "tsconfig_compileroptions_declaration",
+      "community": 3,
+      "norm_label": "declaration"
+    },
+    {
+      "label": "removeComments",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "id": "tsconfig_compileroptions_removecomments",
+      "community": 3,
+      "norm_label": "removecomments"
+    },
+    {
+      "label": "emitDecoratorMetadata",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "id": "tsconfig_compileroptions_emitdecoratormetadata",
+      "community": 3,
+      "norm_label": "emitdecoratormetadata"
+    },
+    {
+      "label": "experimentalDecorators",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "id": "tsconfig_compileroptions_experimentaldecorators",
+      "community": 3,
+      "norm_label": "experimentaldecorators"
+    },
+    {
+      "label": "allowSyntheticDefaultImports",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "id": "tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "community": 3,
+      "norm_label": "allowsyntheticdefaultimports"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "id": "tsconfig_compileroptions_target",
+      "community": 3,
+      "norm_label": "target"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "id": "tsconfig_compileroptions_strict",
+      "community": 3,
+      "norm_label": "strict"
+    },
+    {
+      "label": "strictPropertyInitialization",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "id": "tsconfig_compileroptions_strictpropertyinitialization",
+      "community": 3,
+      "norm_label": "strictpropertyinitialization"
+    },
+    {
+      "label": "sourceMap",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "id": "tsconfig_compileroptions_sourcemap",
+      "community": 3,
+      "norm_label": "sourcemap"
+    },
+    {
+      "label": "outDir",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "id": "tsconfig_compileroptions_outdir",
+      "community": 3,
+      "norm_label": "outdir"
+    },
+    {
+      "label": "baseUrl",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "id": "tsconfig_compileroptions_baseurl",
+      "community": 3,
+      "norm_label": "baseurl"
+    },
+    {
+      "label": "incremental",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "id": "tsconfig_compileroptions_incremental",
+      "community": 3,
+      "norm_label": "incremental"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "id": "tsconfig_compileroptions_skiplibcheck",
+      "community": 3,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "forceConsistentCasingInFileNames",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "id": "tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "community": 3,
+      "norm_label": "forceconsistentcasinginfilenames"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "id": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 3,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "agent.md",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L1",
+      "id": "github_agent",
+      "community": 9,
+      "norm_label": "agent.md"
+    },
+    {
+      "label": "PD Engineering Rules",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L1",
+      "id": "github_agent_pd_engineering_rules",
+      "community": 9,
+      "norm_label": "pd engineering rules"
+    },
+    {
+      "label": "General Rules",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L5",
+      "id": "github_agent_general_rules",
+      "community": 9,
+      "norm_label": "general rules"
+    },
+    {
+      "label": "Structure & Quality",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L14",
+      "id": "github_agent_structure_quality",
+      "community": 9,
+      "norm_label": "structure & quality"
+    },
+    {
+      "label": "Testing",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L24",
+      "id": "github_agent_testing",
+      "community": 9,
+      "norm_label": "testing"
+    },
+    {
+      "label": "Security & Maintainability",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L32",
+      "id": "github_agent_security_maintainability",
+      "community": 9,
+      "norm_label": "security & maintainability"
+    },
+    {
+      "label": "Best Practices",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L39",
+      "id": "github_agent_best_practices",
+      "community": 9,
+      "norm_label": "best practices"
+    },
+    {
+      "label": "Code Style",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L47",
+      "id": "github_agent_code_style",
+      "community": 9,
+      "norm_label": "code style"
+    },
+    {
+      "label": "Output Requirements",
+      "file_type": "document",
+      "source_file": ".github/agent.md",
+      "source_location": "L54",
+      "id": "github_agent_output_requirements",
+      "community": 9,
+      "norm_label": "output requirements"
+    },
+    {
+      "label": "pull_request_template.md",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L1",
+      "id": "github_pull_request_template",
+      "community": 7,
+      "norm_label": "pull_request_template.md"
+    },
+    {
+      "label": "\ud83d\ude80 Overview",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L1",
+      "id": "github_pull_request_template_overview",
+      "community": 7,
+      "norm_label": "\ud83d\ude80 overview"
+    },
+    {
+      "label": "\ud83d\udccb Changes Made",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L6",
+      "id": "github_pull_request_template_changes_made",
+      "community": 7,
+      "norm_label": "\ud83d\udccb changes made"
+    },
+    {
+      "label": "\ud83c\udfd7\ufe0f **Architecture & Structure**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L8",
+      "id": "github_pull_request_template_architecture_structure",
+      "community": 7,
+      "norm_label": "\ud83c\udfd7\ufe0f **architecture & structure**"
+    },
+    {
+      "label": "\ud83d\udd27 **Core Features Implemented**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L13",
+      "id": "github_pull_request_template_core_features_implemented",
+      "community": 7,
+      "norm_label": "\ud83d\udd27 **core features implemented**"
+    },
+    {
+      "label": "\ud83d\udce6 **Libraries Added**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L17",
+      "id": "github_pull_request_template_libraries_added",
+      "community": 7,
+      "norm_label": "\ud83d\udce6 **libraries added**"
+    },
+    {
+      "label": "\ud83e\uddea **Tests Created**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L22",
+      "id": "github_pull_request_template_tests_created",
+      "community": 7,
+      "norm_label": "\ud83e\uddea **tests created**"
+    },
+    {
+      "label": "\ud83d\uddc2\ufe0f **File Changes Summary**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L27",
+      "id": "github_pull_request_template_file_changes_summary",
+      "community": 7,
+      "norm_label": "\ud83d\uddc2\ufe0f **file changes summary**"
+    },
+    {
+      "label": "\ud83d\udea6 **API Endpoints**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L31",
+      "id": "github_pull_request_template_api_endpoints",
+      "community": 7,
+      "norm_label": "\ud83d\udea6 **api endpoints**"
+    },
+    {
+      "label": "\u2705 **Testing**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L36",
+      "id": "github_pull_request_template_testing",
+      "community": 7,
+      "norm_label": "\u2705 **testing**"
+    },
+    {
+      "label": "\ud83d\udd0d **Code Validation Checklist**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L42",
+      "id": "github_pull_request_template_code_validation_checklist",
+      "community": 7,
+      "norm_label": "\ud83d\udd0d **code validation checklist**"
+    },
+    {
+      "label": "\ud83d\udcda **Documentation**",
+      "file_type": "document",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L56",
+      "id": "github_pull_request_template_documentation",
+      "community": 7,
+      "norm_label": "\ud83d\udcda **documentation**"
+    },
+    {
+      "label": "14-engine-bootstrap-and-core.md",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L1",
+      "id": "14_engine_bootstrap_and_core",
+      "community": 13,
+      "norm_label": "14-engine-bootstrap-and-core.md"
+    },
+    {
+      "label": "Phase 14 \u2014 Engine Service: Bootstrap, Schema & Response Reception",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L1",
+      "id": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "community": 13,
+      "norm_label": "phase 14 \u2014 engine service: bootstrap, schema & response reception"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L3",
+      "id": "14_engine_bootstrap_and_core_objective",
+      "community": 13,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L6",
+      "id": "14_engine_bootstrap_and_core_prerequisites",
+      "community": 13,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Copilot Prompt",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L11",
+      "id": "14_engine_bootstrap_and_core_copilot_prompt",
+      "community": 13,
+      "norm_label": "copilot prompt"
+    },
+    {
+      "label": "Expected Deliverables",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L221",
+      "id": "14_engine_bootstrap_and_core_expected_deliverables",
+      "community": 13,
+      "norm_label": "expected deliverables"
+    },
+    {
+      "label": "Acceptance Criteria",
+      "file_type": "document",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L229",
+      "id": "14_engine_bootstrap_and_core_acceptance_criteria",
+      "community": 13,
+      "norm_label": "acceptance criteria"
+    },
+    {
+      "label": "15-engine-scoring-analytics-reports.md",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L1",
+      "id": "15_engine_scoring_analytics_reports",
+      "community": 14,
+      "norm_label": "15-engine-scoring-analytics-reports.md"
+    },
+    {
+      "label": "Phase 15 \u2014 Engine: Scoring, Analytics, Reports & Results",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L1",
+      "id": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "community": 14,
+      "norm_label": "phase 15 \u2014 engine: scoring, analytics, reports & results"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L3",
+      "id": "15_engine_scoring_analytics_reports_objective",
+      "community": 14,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L6",
+      "id": "15_engine_scoring_analytics_reports_prerequisites",
+      "community": 14,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Copilot Prompt",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L9",
+      "id": "15_engine_scoring_analytics_reports_copilot_prompt",
+      "community": 14,
+      "norm_label": "copilot prompt"
+    },
+    {
+      "label": "Expected Deliverables",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L288",
+      "id": "15_engine_scoring_analytics_reports_expected_deliverables",
+      "community": 14,
+      "norm_label": "expected deliverables"
+    },
+    {
+      "label": "Acceptance Criteria",
+      "file_type": "document",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L296",
+      "id": "15_engine_scoring_analytics_reports_acceptance_criteria",
+      "community": 14,
+      "norm_label": "acceptance criteria"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme",
+      "community": 0,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "cercana-ti Backend \u2014 NestJS Template",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_cercana_ti_backend_nestjs_template",
+      "community": 0,
+      "norm_label": "cercana-ti backend \u2014 nestjs template"
+    },
+    {
+      "label": "Table of Contents",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "id": "readme_table_of_contents",
+      "community": 0,
+      "norm_label": "table of contents"
+    },
+    {
+      "label": "1. Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "id": "readme_1_overview",
+      "community": 20,
+      "norm_label": "1. overview"
+    },
+    {
+      "label": "Objective",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "id": "readme_objective",
+      "community": 20,
+      "norm_label": "objective"
+    },
+    {
+      "label": "Problem It Solves",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "readme_problem_it_solves",
+      "community": 20,
+      "norm_label": "problem it solves"
+    },
+    {
+      "label": "Architecture Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "id": "readme_architecture_overview",
+      "community": 20,
+      "norm_label": "architecture overview"
+    },
+    {
+      "label": "High-Level Flow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "id": "readme_high_level_flow",
+      "community": 20,
+      "norm_label": "high-level flow"
+    },
+    {
+      "label": "2. Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L87",
+      "id": "readme_2_tech_stack",
+      "community": 0,
+      "norm_label": "2. tech stack"
+    },
+    {
+      "label": "3. Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "id": "readme_3_project_structure",
+      "community": 0,
+      "norm_label": "3. project structure"
+    },
+    {
+      "label": "Folder Responsibilities",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L193",
+      "id": "readme_folder_responsibilities",
+      "community": 0,
+      "norm_label": "folder responsibilities"
+    },
+    {
+      "label": "4. Architecture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L206",
+      "id": "readme_4_architecture",
+      "community": 21,
+      "norm_label": "4. architecture"
+    },
+    {
+      "label": "Pattern",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L208",
+      "id": "readme_pattern",
+      "community": 21,
+      "norm_label": "pattern"
+    },
+    {
+      "label": "Layers",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L212",
+      "id": "readme_layers",
+      "community": 21,
+      "norm_label": "layers"
+    },
+    {
+      "label": "Key Design Patterns",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L233",
+      "id": "readme_key_design_patterns",
+      "community": 21,
+      "norm_label": "key design patterns"
+    },
+    {
+      "label": "Request Execution Flow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L245",
+      "id": "readme_request_execution_flow",
+      "community": 21,
+      "norm_label": "request execution flow"
+    },
+    {
+      "label": "5. Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L274",
+      "id": "readme_5_requirements",
+      "community": 0,
+      "norm_label": "5. requirements"
+    },
+    {
+      "label": "6. Environment Variables",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L288",
+      "id": "readme_6_environment_variables",
+      "community": 0,
+      "norm_label": "6. environment variables"
+    },
+    {
+      "label": "Application",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L299",
+      "id": "readme_application",
+      "community": 0,
+      "norm_label": "application"
+    },
+    {
+      "label": "Database",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L307",
+      "id": "readme_database",
+      "community": 0,
+      "norm_label": "database"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L321",
+      "id": "readme_security",
+      "community": 0,
+      "norm_label": "security"
+    },
+    {
+      "label": "Rate Limiting",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L327",
+      "id": "readme_rate_limiting",
+      "community": 0,
+      "norm_label": "rate limiting"
+    },
+    {
+      "label": "Logging",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L334",
+      "id": "readme_logging",
+      "community": 0,
+      "norm_label": "logging"
+    },
+    {
+      "label": "Datadog APM (Optional)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L340",
+      "id": "readme_datadog_apm_optional",
+      "community": 0,
+      "norm_label": "datadog apm (optional)"
+    },
+    {
+      "label": "7. Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L352",
+      "id": "readme_7_installation",
+      "community": 16,
+      "norm_label": "7. installation"
+    },
+    {
+      "label": "1. Clone the Repository",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L354",
+      "id": "readme_1_clone_the_repository",
+      "community": 16,
+      "norm_label": "1. clone the repository"
+    },
+    {
+      "label": "2. Install Dependencies",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L361",
+      "id": "readme_2_install_dependencies",
+      "community": 16,
+      "norm_label": "2. install dependencies"
+    },
+    {
+      "label": "3. Configure Environment Variables",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L367",
+      "id": "readme_3_configure_environment_variables",
+      "community": 16,
+      "norm_label": "3. configure environment variables"
+    },
+    {
+      "label": "4. Database Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L382",
+      "id": "readme_4_database_setup",
+      "community": 16,
+      "norm_label": "4. database setup"
+    },
+    {
+      "label": "5. Verify Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L392",
+      "id": "readme_5_verify_installation",
+      "community": 16,
+      "norm_label": "5. verify installation"
+    },
+    {
+      "label": "8. Running the Project",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L400",
+      "id": "readme_8_running_the_project",
+      "community": 17,
+      "norm_label": "8. running the project"
+    },
+    {
+      "label": "Development (watch mode)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L402",
+      "id": "readme_development_watch_mode",
+      "community": 17,
+      "norm_label": "development (watch mode)"
+    },
+    {
+      "label": "Local (single run)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L410",
+      "id": "readme_local_single_run",
+      "community": 17,
+      "norm_label": "local (single run)"
+    },
+    {
+      "label": "Production",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L416",
+      "id": "readme_production",
+      "community": 17,
+      "norm_label": "production"
+    },
+    {
+      "label": "Debug Mode",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L425",
+      "id": "readme_debug_mode",
+      "community": 17,
+      "norm_label": "debug mode"
+    },
+    {
+      "label": "Docker",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L433",
+      "id": "readme_docker",
+      "community": 17,
+      "norm_label": "docker"
+    },
+    {
+      "label": "9. Available Scripts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L442",
+      "id": "readme_9_available_scripts",
+      "community": 0,
+      "norm_label": "9. available scripts"
+    },
+    {
+      "label": "10. API Documentation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L462",
+      "id": "readme_10_api_documentation",
+      "community": 8,
+      "norm_label": "10. api documentation"
+    },
+    {
+      "label": "Base URL",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L464",
+      "id": "readme_base_url",
+      "community": 8,
+      "norm_label": "base url"
+    },
+    {
+      "label": "Interactive Swagger UI",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L470",
+      "id": "readme_interactive_swagger_ui",
+      "community": 8,
+      "norm_label": "interactive swagger ui"
+    },
+    {
+      "label": "Authentication",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L480",
+      "id": "readme_authentication",
+      "community": 8,
+      "norm_label": "authentication"
+    },
+    {
+      "label": "Health Endpoints",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L490",
+      "id": "readme_health_endpoints",
+      "community": 8,
+      "norm_label": "health endpoints"
+    },
+    {
+      "label": "Customer Endpoints",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L519",
+      "id": "readme_customer_endpoints",
+      "community": 8,
+      "norm_label": "customer endpoints"
+    },
+    {
+      "label": "Query Parameters \u2014 `GET /customers`",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L531",
+      "id": "readme_query_parameters_get_customers",
+      "community": 8,
+      "norm_label": "query parameters \u2014 `get /customers`"
+    },
+    {
+      "label": "`POST /customers` \u2014 Request Body",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L539",
+      "id": "readme_post_customers_request_body",
+      "community": 8,
+      "norm_label": "`post /customers` \u2014 request body"
+    },
+    {
+      "label": "`POST /customers` \u2014 Response `201 Created`",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L552",
+      "id": "readme_post_customers_response_201_created",
+      "community": 8,
+      "norm_label": "`post /customers` \u2014 response `201 created`"
+    },
+    {
+      "label": "`GET /customers` \u2014 Paginated Response",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L569",
+      "id": "readme_get_customers_paginated_response",
+      "community": 8,
+      "norm_label": "`get /customers` \u2014 paginated response"
+    },
+    {
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L580",
+      "id": "readme_error_handling",
+      "community": 8,
+      "norm_label": "error handling"
+    },
+    {
+      "label": "Request Tracing Headers",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L600",
+      "id": "readme_request_tracing_headers",
+      "community": 8,
+      "norm_label": "request tracing headers"
+    },
+    {
+      "label": "11. Authentication & Authorization",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L612",
+      "id": "readme_11_authentication_authorization",
+      "community": 0,
+      "norm_label": "11. authentication & authorization"
+    },
+    {
+      "label": "Request Context (`@ClientContext`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L616",
+      "id": "readme_request_context_clientcontext",
+      "community": 0,
+      "norm_label": "request context (`@clientcontext`)"
+    },
+    {
+      "label": "Planned Authentication",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L641",
+      "id": "readme_planned_authentication",
+      "community": 0,
+      "norm_label": "planned authentication"
+    },
+    {
+      "label": "12. Database",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L649",
+      "id": "readme_12_database",
+      "community": 11,
+      "norm_label": "12. database"
+    },
+    {
+      "label": "Engine",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L651",
+      "id": "readme_engine",
+      "community": 11,
+      "norm_label": "engine"
+    },
+    {
+      "label": "Provider Modes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L655",
+      "id": "readme_provider_modes",
+      "community": 11,
+      "norm_label": "provider modes"
+    },
+    {
+      "label": "ORM",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L664",
+      "id": "readme_orm",
+      "community": 11,
+      "norm_label": "orm"
+    },
+    {
+      "label": "Entities",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L668",
+      "id": "readme_entities",
+      "community": 11,
+      "norm_label": "entities"
+    },
+    {
+      "label": "Customer",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L670",
+      "id": "readme_customer",
+      "community": 11,
+      "norm_label": "customer"
+    },
+    {
+      "label": "Migrations",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L685",
+      "id": "readme_migrations",
+      "community": 11,
+      "norm_label": "migrations"
+    },
+    {
+      "label": "SSL",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L702",
+      "id": "readme_ssl",
+      "community": 11,
+      "norm_label": "ssl"
+    },
+    {
+      "label": "13. Testing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L708",
+      "id": "readme_13_testing",
+      "community": 0,
+      "norm_label": "13. testing"
+    },
+    {
+      "label": "Strategy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L710",
+      "id": "readme_strategy",
+      "community": 0,
+      "norm_label": "strategy"
+    },
+    {
+      "label": "Running Tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L717",
+      "id": "readme_running_tests",
+      "community": 0,
+      "norm_label": "running tests"
+    },
+    {
+      "label": "Coverage Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L733",
+      "id": "readme_coverage_configuration",
+      "community": 0,
+      "norm_label": "coverage configuration"
+    },
+    {
+      "label": "Test Structure Example",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L739",
+      "id": "readme_test_structure_example",
+      "community": 0,
+      "norm_label": "test structure example"
+    },
+    {
+      "label": "14. Logging & Monitoring",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L755",
+      "id": "readme_14_logging_monitoring",
+      "community": 0,
+      "norm_label": "14. logging & monitoring"
+    },
+    {
+      "label": "Logging Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L757",
+      "id": "readme_logging_stack",
+      "community": 0,
+      "norm_label": "logging stack"
+    },
+    {
+      "label": "Pino HTTP Logger",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L766",
+      "id": "readme_pino_http_logger",
+      "community": 0,
+      "norm_label": "pino http logger"
+    },
+    {
+      "label": "Request Correlation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L778",
+      "id": "readme_request_correlation",
+      "community": 0,
+      "norm_label": "request correlation"
+    },
+    {
+      "label": "Datadog APM (Optional)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L792",
+      "id": "readme_datadog_apm_optional_792",
+      "community": 0,
+      "norm_label": "datadog apm (optional)"
+    },
+    {
+      "label": "Health Check Endpoints",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L802",
+      "id": "readme_health_check_endpoints",
+      "community": 0,
+      "norm_label": "health check endpoints"
+    },
+    {
+      "label": "15. Docker & Deployment",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L813",
+      "id": "readme_15_docker_deployment",
+      "community": 10,
+      "norm_label": "15. docker & deployment"
+    },
+    {
+      "label": "Multi-Stage Dockerfile",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L815",
+      "id": "readme_multi_stage_dockerfile",
+      "community": 10,
+      "norm_label": "multi-stage dockerfile"
+    },
+    {
+      "label": "Security Hardening",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L825",
+      "id": "readme_security_hardening",
+      "community": 10,
+      "norm_label": "security hardening"
+    },
+    {
+      "label": "Build & Run",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L831",
+      "id": "readme_build_run",
+      "community": 10,
+      "norm_label": "build & run"
+    },
+    {
+      "label": "Docker Compose",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L851",
+      "id": "readme_docker_compose",
+      "community": 10,
+      "norm_label": "docker compose"
+    },
+    {
+      "label": "CI/CD Pipeline",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L855",
+      "id": "readme_ci_cd_pipeline",
+      "community": 10,
+      "norm_label": "ci/cd pipeline"
+    },
+    {
+      "label": "Triggers",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L859",
+      "id": "readme_triggers",
+      "community": 10,
+      "norm_label": "triggers"
+    },
+    {
+      "label": "Jobs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L866",
+      "id": "readme_jobs",
+      "community": 10,
+      "norm_label": "jobs"
+    },
+    {
+      "label": "Branch Protection Rules (Enforced by CI)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L873",
+      "id": "readme_branch_protection_rules_enforced_by_ci",
+      "community": 10,
+      "norm_label": "branch protection rules (enforced by ci)"
+    },
+    {
+      "label": "16. Code Quality",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L885",
+      "id": "readme_16_code_quality",
+      "community": 18,
+      "norm_label": "16. code quality"
+    },
+    {
+      "label": "ESLint",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L887",
+      "id": "readme_eslint",
+      "community": 18,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "Prettier",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L902",
+      "id": "readme_prettier",
+      "community": 18,
+      "norm_label": "prettier"
+    },
+    {
+      "label": "TypeScript",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L925",
+      "id": "readme_typescript",
+      "community": 18,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "Conventions",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L932",
+      "id": "readme_conventions",
+      "community": 18,
+      "norm_label": "conventions"
+    },
+    {
+      "label": "17. Security",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L941",
+      "id": "readme_17_security",
+      "community": 0,
+      "norm_label": "17. security"
+    },
+    {
+      "label": "OWASP Alignment",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L956",
+      "id": "readme_owasp_alignment",
+      "community": 0,
+      "norm_label": "owasp alignment"
+    },
+    {
+      "label": "18. Troubleshooting",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L968",
+      "id": "readme_18_troubleshooting",
+      "community": 12,
+      "norm_label": "18. troubleshooting"
+    },
+    {
+      "label": "Application fails to start \u2014 `Missing DATABASE_URL`",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L970",
+      "id": "readme_application_fails_to_start_missing_database_url",
+      "community": 12,
+      "norm_label": "application fails to start \u2014 `missing database_url`"
+    },
+    {
+      "label": "Supabase connection refused",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L978",
+      "id": "readme_supabase_connection_refused",
+      "community": 12,
+      "norm_label": "supabase connection refused"
+    },
+    {
+      "label": "`synchronize` warnings in staging/production",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L984",
+      "id": "readme_synchronize_warnings_in_staging_production",
+      "community": 12,
+      "norm_label": "`synchronize` warnings in staging/production"
+    },
+    {
+      "label": "Port already in use",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L992",
+      "id": "readme_port_already_in_use",
+      "community": 12,
+      "norm_label": "port already in use"
+    },
+    {
+      "label": "Pino logs not colorized",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1003",
+      "id": "readme_pino_logs_not_colorized",
+      "community": 12,
+      "norm_label": "pino logs not colorized"
+    },
+    {
+      "label": "Swagger UI not showing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1007",
+      "id": "readme_swagger_ui_not_showing",
+      "community": 12,
+      "norm_label": "swagger ui not showing"
+    },
+    {
+      "label": "TypeORM entity not recognized",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1011",
+      "id": "readme_typeorm_entity_not_recognized",
+      "community": 12,
+      "norm_label": "typeorm entity not recognized"
+    },
+    {
+      "label": "19. Contributing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1021",
+      "id": "readme_19_contributing",
+      "community": 19,
+      "norm_label": "19. contributing"
+    },
+    {
+      "label": "Branch Strategy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1023",
+      "id": "readme_branch_strategy",
+      "community": 19,
+      "norm_label": "branch strategy"
+    },
+    {
+      "label": "Commit Conventions",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1037",
+      "id": "readme_commit_conventions",
+      "community": 19,
+      "norm_label": "commit conventions"
+    },
+    {
+      "label": "Pull Request Process",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1050",
+      "id": "readme_pull_request_process",
+      "community": 19,
+      "norm_label": "pull request process"
+    },
+    {
+      "label": "PR Checklist (Summary)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1058",
+      "id": "readme_pr_checklist_summary",
+      "community": 19,
+      "norm_label": "pr checklist (summary)"
+    },
+    {
+      "label": "20. License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1069",
+      "id": "readme_20_license",
+      "community": 0,
+      "norm_label": "20. license"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "eslint_config_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "eslint_config_prettierrecommended",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "eslint_config",
+      "target": "eslint_config_tseslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "healthcheck.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "healthcheck",
+      "target": "healthcheck_http",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "healthcheck.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "healthcheck",
+      "target": "healthcheck_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "healthcheck.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "healthcheck",
+      "target": "healthcheck_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "nest_cli",
+      "target": "nest_cli_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "nest_cli",
+      "target": "nest_cli_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "nest_cli",
+      "target": "nest_cli_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "nest_cli",
+      "target": "nest_cli_sourceroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nest-cli.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "nest_cli_compileroptions",
+      "target": "nest_cli_compileroptions_deleteoutdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_format_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start_debug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start_prod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test_cov",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test_debug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_typeorm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_class_transformer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_class_validator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_compression",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_dd_trace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_helmet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_axios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_common",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_pino",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_platform_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_swagger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_throttler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_nestjs_typeorm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_pg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_pino",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_pino_pretty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_reflect_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_rxjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_supabase_supabase_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_typeorm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_winston",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_config_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_nestjs_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_nestjs_schematics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_nestjs_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_source_map_support",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_ts_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_ts_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_tsconfig_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_compression",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_collectcoveragefrom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_coveragedirectory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_modulefileextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_rootdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_testenvironment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_testregex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "package_jest",
+      "target": "package_jest_transform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "package_jest_transform",
+      "target": "package_transform_t_j_s",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/__tests__/app.controller.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tests_app_controller_spec",
+      "target": "src_app_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/__tests__/app.controller.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tests_app_controller_spec",
+      "target": "src_app_controller_appcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/__tests__/app.controller.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_app_controller_spec",
+      "target": "src_app_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/__tests__/app.controller.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_app_controller_spec",
+      "target": "src_app_service_appservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/__tests__/app.service.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tests_app_service_spec",
+      "target": "src_app_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/__tests__/app.service.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tests_app_service_spec",
+      "target": "src_app_service_appservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_controller",
+      "target": "src_app_controller_appcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_controller",
+      "target": "src_app_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_controller",
+      "target": "src_app_service_appservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_module",
+      "target": "src_app_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_controller_appcontroller",
+      "target": "src_app_controller_appcontroller_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_controller_appcontroller",
+      "target": "src_app_controller_appcontroller_getdetailedhealth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_app_controller_appcontroller",
+      "target": "src_app_controller_appcontroller_gethealth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_module",
+      "target": "src_app_controller_appcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.controller.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_controller_appcontroller_constructor",
+      "target": "src_app_service_appservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_app_module",
+      "target": "src_app_module_appmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_module",
+      "target": "src_app_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_module",
+      "target": "src_app_service_appservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.module.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_app_module_appmodule",
+      "target": "src_app_module_appmodule_configure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app_module_appmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.service.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_service",
+      "target": "src_app_service_appservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.service.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_service_appservice",
+      "target": "src_app_service_appservice_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.service.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_app_service_appservice",
+      "target": "src_app_service_appservice_getdetailedhealth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.service.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_app_service_appservice",
+      "target": "src_app_service_appservice_gethealth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_main_bootstrap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tsconfig_build",
+      "target": "tsconfig_build_exclude",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.build.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig_build",
+      "target": "tsconfig_build_extends",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_baseurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_declaration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_emitdecoratormetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_experimentaldecorators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_incremental",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_outdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_removecomments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_sourcemap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_strictpropertyinitialization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "github_agent",
+      "target": "github_agent_pd_engineering_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_best_practices",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_code_style",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_general_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_output_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_security_maintainability",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_structure_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/agent.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "github_agent_pd_engineering_rules",
+      "target": "github_agent_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "github_pull_request_template",
+      "target": "github_pull_request_template_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "github_pull_request_template_overview",
+      "target": "github_pull_request_template_changes_made",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "github_pull_request_template_overview",
+      "target": "github_pull_request_template_code_validation_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "github_pull_request_template_overview",
+      "target": "github_pull_request_template_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "github_pull_request_template_overview",
+      "target": "github_pull_request_template_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "github_pull_request_template_changes_made",
+      "target": "github_pull_request_template_api_endpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "github_pull_request_template_changes_made",
+      "target": "github_pull_request_template_architecture_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "github_pull_request_template_changes_made",
+      "target": "github_pull_request_template_core_features_implemented",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "github_pull_request_template_changes_made",
+      "target": "github_pull_request_template_file_changes_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "github_pull_request_template_changes_made",
+      "target": "github_pull_request_template_libraries_added",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".github/pull_request_template.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "github_pull_request_template_changes_made",
+      "target": "github_pull_request_template_tests_created",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "14_engine_bootstrap_and_core",
+      "target": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "target": "14_engine_bootstrap_and_core_acceptance_criteria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "target": "14_engine_bootstrap_and_core_copilot_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "target": "14_engine_bootstrap_and_core_expected_deliverables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "target": "14_engine_bootstrap_and_core_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "14-engine-bootstrap-and-core.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "14_engine_bootstrap_and_core_phase_14_engine_service_bootstrap_schema_response_reception",
+      "target": "14_engine_bootstrap_and_core_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "15_engine_scoring_analytics_reports",
+      "target": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L296",
+      "weight": 1.0,
+      "source": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "target": "15_engine_scoring_analytics_reports_acceptance_criteria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "target": "15_engine_scoring_analytics_reports_copilot_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L288",
+      "weight": 1.0,
+      "source": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "target": "15_engine_scoring_analytics_reports_expected_deliverables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "target": "15_engine_scoring_analytics_reports_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "15-engine-scoring-analytics-reports.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "15_engine_scoring_analytics_reports_phase_15_engine_scoring_analytics_reports_results",
+      "target": "15_engine_scoring_analytics_reports_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_cercana_ti_backend_nestjs_template",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L462",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_10_api_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L612",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_11_authentication_authorization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L649",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_12_database",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L708",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_13_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L755",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_14_logging_monitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L813",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_15_docker_deployment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L885",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_16_code_quality",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L941",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_17_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L968",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_18_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1021",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_19_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_1_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1069",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_20_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_2_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_3_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_4_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L274",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_5_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L288",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_6_environment_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L352",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_7_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L400",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_8_running_the_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L442",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_9_available_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "readme_cercana_ti_backend_nestjs_template",
+      "target": "readme_table_of_contents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "readme_1_overview",
+      "target": "readme_architecture_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "readme_1_overview",
+      "target": "readme_high_level_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "readme_1_overview",
+      "target": "readme_objective",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme_1_overview",
+      "target": "readme_problem_it_solves",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "readme_3_project_structure",
+      "target": "readme_folder_responsibilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "readme_4_architecture",
+      "target": "readme_key_design_patterns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "readme_4_architecture",
+      "target": "readme_layers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "readme_4_architecture",
+      "target": "readme_pattern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "readme_4_architecture",
+      "target": "readme_request_execution_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "readme_6_environment_variables",
+      "target": "readme_application",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "readme_6_environment_variables",
+      "target": "readme_database",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L340",
+      "weight": 1.0,
+      "source": "readme_6_environment_variables",
+      "target": "readme_datadog_apm_optional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L334",
+      "weight": 1.0,
+      "source": "readme_6_environment_variables",
+      "target": "readme_logging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L327",
+      "weight": 1.0,
+      "source": "readme_6_environment_variables",
+      "target": "readme_rate_limiting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L321",
+      "weight": 1.0,
+      "source": "readme_6_environment_variables",
+      "target": "readme_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L354",
+      "weight": 1.0,
+      "source": "readme_7_installation",
+      "target": "readme_1_clone_the_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L361",
+      "weight": 1.0,
+      "source": "readme_7_installation",
+      "target": "readme_2_install_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L367",
+      "weight": 1.0,
+      "source": "readme_7_installation",
+      "target": "readme_3_configure_environment_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L382",
+      "weight": 1.0,
+      "source": "readme_7_installation",
+      "target": "readme_4_database_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L392",
+      "weight": 1.0,
+      "source": "readme_7_installation",
+      "target": "readme_5_verify_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L425",
+      "weight": 1.0,
+      "source": "readme_8_running_the_project",
+      "target": "readme_debug_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L402",
+      "weight": 1.0,
+      "source": "readme_8_running_the_project",
+      "target": "readme_development_watch_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L433",
+      "weight": 1.0,
+      "source": "readme_8_running_the_project",
+      "target": "readme_docker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L410",
+      "weight": 1.0,
+      "source": "readme_8_running_the_project",
+      "target": "readme_local_single_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L416",
+      "weight": 1.0,
+      "source": "readme_8_running_the_project",
+      "target": "readme_production",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L480",
+      "weight": 1.0,
+      "source": "readme_10_api_documentation",
+      "target": "readme_authentication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L464",
+      "weight": 1.0,
+      "source": "readme_10_api_documentation",
+      "target": "readme_base_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L519",
+      "weight": 1.0,
+      "source": "readme_10_api_documentation",
+      "target": "readme_customer_endpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L490",
+      "weight": 1.0,
+      "source": "readme_10_api_documentation",
+      "target": "readme_health_endpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L470",
+      "weight": 1.0,
+      "source": "readme_10_api_documentation",
+      "target": "readme_interactive_swagger_ui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L600",
+      "weight": 1.0,
+      "source": "readme_10_api_documentation",
+      "target": "readme_request_tracing_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L580",
+      "weight": 1.0,
+      "source": "readme_customer_endpoints",
+      "target": "readme_error_handling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L569",
+      "weight": 1.0,
+      "source": "readme_customer_endpoints",
+      "target": "readme_get_customers_paginated_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L539",
+      "weight": 1.0,
+      "source": "readme_customer_endpoints",
+      "target": "readme_post_customers_request_body",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L552",
+      "weight": 1.0,
+      "source": "readme_customer_endpoints",
+      "target": "readme_post_customers_response_201_created",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L531",
+      "weight": 1.0,
+      "source": "readme_customer_endpoints",
+      "target": "readme_query_parameters_get_customers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L641",
+      "weight": 1.0,
+      "source": "readme_11_authentication_authorization",
+      "target": "readme_planned_authentication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L616",
+      "weight": 1.0,
+      "source": "readme_11_authentication_authorization",
+      "target": "readme_request_context_clientcontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L651",
+      "weight": 1.0,
+      "source": "readme_12_database",
+      "target": "readme_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L668",
+      "weight": 1.0,
+      "source": "readme_12_database",
+      "target": "readme_entities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L685",
+      "weight": 1.0,
+      "source": "readme_12_database",
+      "target": "readme_migrations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L664",
+      "weight": 1.0,
+      "source": "readme_12_database",
+      "target": "readme_orm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L655",
+      "weight": 1.0,
+      "source": "readme_12_database",
+      "target": "readme_provider_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L702",
+      "weight": 1.0,
+      "source": "readme_12_database",
+      "target": "readme_ssl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L670",
+      "weight": 1.0,
+      "source": "readme_entities",
+      "target": "readme_customer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L733",
+      "weight": 1.0,
+      "source": "readme_13_testing",
+      "target": "readme_coverage_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L717",
+      "weight": 1.0,
+      "source": "readme_13_testing",
+      "target": "readme_running_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L710",
+      "weight": 1.0,
+      "source": "readme_13_testing",
+      "target": "readme_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L739",
+      "weight": 1.0,
+      "source": "readme_13_testing",
+      "target": "readme_test_structure_example",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L792",
+      "weight": 1.0,
+      "source": "readme_14_logging_monitoring",
+      "target": "readme_datadog_apm_optional_792",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L802",
+      "weight": 1.0,
+      "source": "readme_14_logging_monitoring",
+      "target": "readme_health_check_endpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L757",
+      "weight": 1.0,
+      "source": "readme_14_logging_monitoring",
+      "target": "readme_logging_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L766",
+      "weight": 1.0,
+      "source": "readme_14_logging_monitoring",
+      "target": "readme_pino_http_logger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L778",
+      "weight": 1.0,
+      "source": "readme_14_logging_monitoring",
+      "target": "readme_request_correlation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L831",
+      "weight": 1.0,
+      "source": "readme_15_docker_deployment",
+      "target": "readme_build_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L855",
+      "weight": 1.0,
+      "source": "readme_15_docker_deployment",
+      "target": "readme_ci_cd_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L851",
+      "weight": 1.0,
+      "source": "readme_15_docker_deployment",
+      "target": "readme_docker_compose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L815",
+      "weight": 1.0,
+      "source": "readme_15_docker_deployment",
+      "target": "readme_multi_stage_dockerfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L825",
+      "weight": 1.0,
+      "source": "readme_15_docker_deployment",
+      "target": "readme_security_hardening",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L873",
+      "weight": 1.0,
+      "source": "readme_ci_cd_pipeline",
+      "target": "readme_branch_protection_rules_enforced_by_ci",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L866",
+      "weight": 1.0,
+      "source": "readme_ci_cd_pipeline",
+      "target": "readme_jobs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L859",
+      "weight": 1.0,
+      "source": "readme_ci_cd_pipeline",
+      "target": "readme_triggers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L932",
+      "weight": 1.0,
+      "source": "readme_16_code_quality",
+      "target": "readme_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L887",
+      "weight": 1.0,
+      "source": "readme_16_code_quality",
+      "target": "readme_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L902",
+      "weight": 1.0,
+      "source": "readme_16_code_quality",
+      "target": "readme_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L925",
+      "weight": 1.0,
+      "source": "readme_16_code_quality",
+      "target": "readme_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L956",
+      "weight": 1.0,
+      "source": "readme_17_security",
+      "target": "readme_owasp_alignment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L970",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_application_fails_to_start_missing_database_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1003",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_pino_logs_not_colorized",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L992",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_port_already_in_use",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L978",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_supabase_connection_refused",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1007",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_swagger_ui_not_showing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L984",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_synchronize_warnings_in_staging_production",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1011",
+      "weight": 1.0,
+      "source": "readme_18_troubleshooting",
+      "target": "readme_typeorm_entity_not_recognized",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1023",
+      "weight": 1.0,
+      "source": "readme_19_contributing",
+      "target": "readme_branch_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1037",
+      "weight": 1.0,
+      "source": "readme_19_contributing",
+      "target": "readme_commit_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1058",
+      "weight": 1.0,
+      "source": "readme_19_contributing",
+      "target": "readme_pr_checklist_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1050",
+      "weight": 1.0,
+      "source": "readme_19_contributing",
+      "target": "readme_pull_request_process",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "5aaa9d31a42c778f0fc2680507ba806fd2d5dbc3"
+}
