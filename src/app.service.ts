@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Logger } from 'nestjs-pino';
 
-const SERVICE_NAME = process.env.SERVICE_NAME ?? 'cercana-ti-backend-nestjs';
+const SERVICE_NAME = process.env.SERVICE_NAME ?? 'cercana-ti-survey-engine-ms';
 
 @Injectable()
 export class AppService {

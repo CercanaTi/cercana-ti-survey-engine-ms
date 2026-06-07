@@ -11,12 +11,12 @@ describe('AppController', () => {
       getHealth: jest.fn().mockReturnValue({
         status: 'ok',
         timestamp: '2026-01-01T00:00:00.000Z',
-        service: 'cercana-ti-backend-nestjs',
+        service: 'cercana-ti-survey-engine-ms',
       }),
       getDetailedHealth: jest.fn().mockReturnValue({
         status: 'ok',
         timestamp: '2026-01-01T00:00:00.000Z',
-        service: 'cercana-ti-backend-nestjs',
+        service: 'cercana-ti-survey-engine-ms',
         version: '1.0.0',
         environment: 'test',
         uptime: 100,

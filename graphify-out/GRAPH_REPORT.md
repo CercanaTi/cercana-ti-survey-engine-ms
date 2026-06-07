@@ -1,16 +1,16 @@
 # Graph Report - cercana-ti-survey-engine-ms  (2026-06-07)
 
 ## Corpus Check
-- 19 files · ~9,372 words
+- 63 files · ~14,517 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 265 nodes · 261 edges · 27 communities (26 shown, 1 thin omitted)
+- 392 nodes · 501 edges · 40 communities (32 shown, 8 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5aaa9d31`
+- Built from commit: `65054ba6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,54 +40,76 @@
 - [[_COMMUNITY_Community 22|Community 22]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `cercana-ti Backend — NestJS Template` - 22 edges
 2. `compilerOptions` - 17 edges
-3. `scripts` - 14 edges
-4. `AppService` - 9 edges
-5. `jest` - 8 edges
-6. `PD Engineering Rules` - 8 edges
-7. `18. Troubleshooting` - 8 edges
-8. `📋 Changes Made` - 7 edges
-9. `6. Environment Variables` - 7 edges
-10. `10. API Documentation` - 7 edges
+3. `ResponsesService` - 15 edges
+4. `scripts` - 14 edges
+5. `EvaluationResponse` - 12 edges
+6. `LoggerService` - 11 edges
+7. `AppService` - 9 edges
+8. `QuestionAnswerDto` - 9 edges
+9. `ReceiveEvaluationDto` - 9 edges
+10. `SaveDraftDto` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `ReportRequest` --references--> `ReportRequestStatus`  [EXTRACTED]
+  src/modules/reports/entities/report-request.entity.ts → src/modules/reports/enums/report-request-status.enum.ts
+- `ReceiveEvaluationDto` --references--> `QuestionAnswerDto`  [EXTRACTED]
+  src/modules/responses/dto/receive-evaluation.dto.ts → src/modules/responses/dto/question-answer.dto.ts
+- `SaveDraftDto` --references--> `QuestionAnswerDto`  [EXTRACTED]
+  src/modules/responses/dto/save-draft.dto.ts → src/modules/responses/dto/question-answer.dto.ts
+- `EvaluationResponse` --references--> `EvaluationResponseStatus`  [EXTRACTED]
+  src/modules/responses/entities/evaluation-response.entity.ts → src/modules/responses/enums/evaluation-response-status.enum.ts
+- `QuestionResponse` --references--> `EvaluationResponse`  [EXTRACTED]
+  src/modules/responses/entities/question-response.entity.ts → src/modules/responses/entities/evaluation-response.entity.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (27 total, 1 thin omitted)
+## Communities (40 total, 8 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.06
-Nodes (31): 11. Authentication & Authorization, 13. Testing, 14. Logging & Monitoring, 17. Security, 20. License, 2. Tech Stack, 3. Project Structure, 5. Requirements (+23 more)
+Cohesion: 0.18
+Nodes (10): 17. Security, 20. License, 2. Tech Stack, 3. Project Structure, 5. Requirements, 9. Available Scripts, cercana-ti Backend — NestJS Template, Folder Responsibilities (+2 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.08
-Nodes (25): dependencies, axios, class-transformer, class-validator, compression, dd-trace, dotenv, helmet (+17 more)
+Cohesion: 0.07
+Nodes (30): dependencies, axios, bullmq, class-transformer, class-validator, compression, dd-trace, dotenv (+22 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.10
-Nodes (20): devDependencies, eslint, eslint-config-prettier, @eslint/js, eslint-plugin-prettier, jest, @nestjs/cli, @nestjs/schematics (+12 more)
+Nodes (21): devDependencies, eslint, eslint-config-prettier, @eslint/js, eslint-plugin-prettier, jest, @nestjs/cli, @nestjs/schematics (+13 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.11
 Nodes (17): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, experimentalDecorators, forceConsistentCasingInFileNames, incremental (+9 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.19
-Nodes (3): AppController, AppModule, AppService
+Cohesion: 0.06
+Nodes (14): CommonModule, appConfig, DatabaseConfig, loggerConfig, redisConfig, Public(), ErrorResponse, GlobalExceptionFilter (+6 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.12
-Nodes (15): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+7 more)
+Cohesion: 0.07
+Nodes (29): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+21 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.14
-Nodes (14): scripts, build, format, format:check, lint, start, start:debug, start:dev (+6 more)
+Cohesion: 0.12
+Nodes (14): QuestionAnswerDto, RubricScoreDto, ReceiveEvaluationDto, ResponseStatusDto, SaveDraftDto, EvaluationResponse, QuestionResponse, RubricScoreEntry (+6 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.17
@@ -157,25 +179,49 @@ Nodes (3): eslint, prettierRecommended, tseslint
 Cohesion: 0.50
 Nodes (3): http, options, request
 
+### Community 27 - "Community 27"
+Cohesion: 0.42
+Nodes (5): EvaluationResult, ManualReviewTask, SectionResult, EvaluationResultStatus, ManualReviewStatus
+
+### Community 28 - "Community 28"
+Cohesion: 0.48
+Nodes (4): NodeAnalyticsSummary, ScoreDistribution, SectionScoreSummary, TeacherProgressSummary
+
+### Community 29 - "Community 29"
+Cohesion: 0.29
+Nodes (7): 6. Environment Variables, Application, Database, Datadog APM (Optional), Logging, Rate Limiting, Security
+
+### Community 31 - "Community 31"
+Cohesion: 0.33
+Nodes (6): 14. Logging & Monitoring, Datadog APM (Optional), Health Check Endpoints, Logging Stack, Pino HTTP Logger, Request Correlation
+
+### Community 33 - "Community 33"
+Cohesion: 0.40
+Nodes (5): 13. Testing, Coverage Configuration, Running Tests, Strategy, Test Structure Example
+
+### Community 37 - "Community 37"
+Cohesion: 0.67
+Nodes (3): 11. Authentication & Authorization, Planned Authentication, Request Context (`@ClientContext`)
+
 ## Knowledge Gaps
-- **203 isolated node(s):** `eslint`, `tseslint`, `prettierRecommended`, `http`, `options` (+198 more)
+- **216 isolated node(s):** `PreToolUse`, `allow`, `eslint`, `tseslint`, `prettierRecommended` (+211 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cercana-ti Backend — NestJS Template` connect `Community 0` to `Community 8`, `Community 10`, `Community 11`, `Community 12`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`, `Community 21`?**
-  _High betweenness centrality (0.135) - this node is a cross-community bridge._
+- **Why does `cercana-ti Backend — NestJS Template` connect `Community 0` to `Community 33`, `Community 37`, `Community 8`, `Community 10`, `Community 11`, `Community 12`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`, `Community 21`, `Community 29`, `Community 31`?**
+  _High betweenness centrality (0.061) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 1` to `Community 5`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `Community 2` to `Community 5`?**
-  _High betweenness centrality (0.035) - this node is a cross-community bridge._
-- **What connects `eslint`, `tseslint`, `prettierRecommended` to the rest of the system?**
-  _203 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+- **What connects `PreToolUse`, `allow`, `eslint` to the rest of the system?**
+  _216 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._

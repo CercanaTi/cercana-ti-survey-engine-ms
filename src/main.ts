@@ -3,19 +3,19 @@ import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
-
-import { initializeTracing } from './config/tracing.config';
 import helmet from 'helmet';
 import * as compression from 'compression';
 import { Logger } from 'nestjs-pino';
-import * as dotenv from 'dotenv';
+
+const DEFAULT_PORT = 3001;
+const SWAGGER_PATH = 'api/docs';
+const SERVICE_TITLE = 'SED-RD Engine API';
+const SERVICE_DESCRIPTION = 'Teacher Evaluation System — Processing Engine Backend';
+const SERVICE_VERSION = '1.0';
 
 async function bootstrap() {
-  dotenv.config();
+  const app = await NestFactory.create(AppModule, { bufferLogs: true });
 
-  initializeTracing();
-
-  const app = await NestFactory.create(AppModule);
   app.useLogger(app.get(Logger));
 
   app.use(helmet());
@@ -23,34 +23,41 @@ async function bootstrap() {
 
   app.useGlobalPipes(
     new ValidationPipe({
-      transform: true,
       whitelist: true,
       forbidNonWhitelisted: true,
+      transform: true,
     }),
   );
 
-  const corsOrigins = process.env.CORS_ORIGIN?.split(',') || ['http://localhost:3000'];
+  const corsOrigins = (process.env.CORS_ORIGINS ?? 'http://localhost:3000').split(',');
   app.enableCors({
     origin: corsOrigins,
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
 
-  if (process.env.NODE_ENV !== 'production') {
-    const config = new DocumentBuilder()
-      .setTitle('cercana-ti Backend API')
-      .setDescription('NestJS microservices template')
-      .setVersion('1.0')
-      .addBearerAuth()
-      .build();
-    const document = SwaggerModule.createDocument(app, config);
-    SwaggerModule.setup('api/docs', app, document);
-  }
+  const swaggerConfig = new DocumentBuilder()
+    .setTitle(SERVICE_TITLE)
+    .setDescription(SERVICE_DESCRIPTION)
+    .setVersion(SERVICE_VERSION)
+    .addApiKey({ type: 'apiKey', name: 'X-Internal-Api-Key', in: 'header' }, 'internal-api-key')
+    .build();
+  const document = SwaggerModule.createDocument(app, swaggerConfig);
+  SwaggerModule.setup(SWAGGER_PATH, app, document);
 
-  const port = process.env.PORT || 3000;
+  const port = parseInt(process.env.PORT ?? String(DEFAULT_PORT), 10);
+
+  app.enableShutdownHooks();
+
   await app.listen(port);
 
   const logger = app.get(Logger);
-  logger.log(`Application is running on: http://localhost:${port}`);
+  logger.log(`Application is running on port ${port}`);
+  logger.log(
+    `Swagger available at ${process.env.HOST ?? 'http://localhost'}:${port}/${SWAGGER_PATH}`,
+  );
+
+  process.on('SIGTERM', () => logger.log('Application shutting down'));
 }
 
 bootstrap();

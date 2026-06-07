@@ -21,7 +21,7 @@ describe('AppService', () => {
       const result = service.getHealth();
 
       expect(result.status).toBe('ok');
-      expect(result.service).toBe('cercana-ti-backend-nestjs');
+      expect(result.service).toBe('cercana-ti-survey-engine-ms');
       expect(result.timestamp).toBeDefined();
     });
   });
@@ -31,7 +31,7 @@ describe('AppService', () => {
       const result = service.getDetailedHealth();
 
       expect(result.status).toBe('ok');
-      expect(result.service).toBe('cercana-ti-backend-nestjs');
+      expect(result.service).toBe('cercana-ti-survey-engine-ms');
       expect(result.uptime).toBeGreaterThanOrEqual(0);
       expect(result.memory).toBeDefined();
       expect(result.databases.postgresql).toBe('connected');
