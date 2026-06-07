@@ -1,16 +1,16 @@
 # Graph Report - cercana-ti-survey-engine-ms  (2026-06-07)
 
 ## Corpus Check
-- 63 files · ~14,517 words
+- 95 files · ~22,573 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 392 nodes · 501 edges · 40 communities (32 shown, 8 thin omitted)
+- 571 nodes · 1061 edges · 43 communities (36 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `65054ba6`
+- Built from commit: `4ae56028`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -53,39 +53,41 @@
 - [[_COMMUNITY_Community 37|Community 37]]
 - [[_COMMUNITY_Community 38|Community 38]]
 - [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
+- [[_COMMUNITY_Community 41|Community 41]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `cercana-ti Backend — NestJS Template` - 22 edges
-2. `compilerOptions` - 17 edges
-3. `ResponsesService` - 15 edges
-4. `scripts` - 14 edges
-5. `EvaluationResponse` - 12 edges
-6. `LoggerService` - 11 edges
-7. `AppService` - 9 edges
-8. `QuestionAnswerDto` - 9 edges
-9. `ReceiveEvaluationDto` - 9 edges
-10. `SaveDraftDto` - 9 edges
+1. `EvaluationResult` - 39 edges
+2. `cercana-ti Backend — NestJS Template` - 22 edges
+3. `LoggerService` - 21 edges
+4. `AnalyticsService` - 21 edges
+5. `QuestionResponse` - 21 edges
+6. `SectionResult` - 21 edges
+7. `AdminClientService` - 20 edges
+8. `ReportsService` - 20 edges
+9. `EvaluationResponse` - 19 edges
+10. `ScoringService` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `ReportRequest` --references--> `ReportRequestStatus`  [EXTRACTED]
-  src/modules/reports/entities/report-request.entity.ts → src/modules/reports/enums/report-request-status.enum.ts
-- `ReceiveEvaluationDto` --references--> `QuestionAnswerDto`  [EXTRACTED]
-  src/modules/responses/dto/receive-evaluation.dto.ts → src/modules/responses/dto/question-answer.dto.ts
-- `SaveDraftDto` --references--> `QuestionAnswerDto`  [EXTRACTED]
-  src/modules/responses/dto/save-draft.dto.ts → src/modules/responses/dto/question-answer.dto.ts
-- `EvaluationResponse` --references--> `EvaluationResponseStatus`  [EXTRACTED]
-  src/modules/responses/entities/evaluation-response.entity.ts → src/modules/responses/enums/evaluation-response-status.enum.ts
+- `HierarchyNodesResponse` --references--> `HierarchyNodeInfo`  [EXTRACTED]
+  src/modules/admin-client/admin-client.service.ts → src/modules/admin-client/interfaces/hierarchy-node-info.interface.ts
+- `PersonProfilesResponse` --references--> `PersonProfile`  [EXTRACTED]
+  src/modules/admin-client/admin-client.service.ts → src/modules/admin-client/interfaces/person-profile.interface.ts
 - `QuestionResponse` --references--> `EvaluationResponse`  [EXTRACTED]
   src/modules/responses/entities/question-response.entity.ts → src/modules/responses/entities/evaluation-response.entity.ts
+- `NodeSummaryComputation` --references--> `ScoreDistribution`  [EXTRACTED]
+  src/modules/analytics/analytics.service.ts → src/modules/analytics/entities/node-analytics-summary.entity.ts
+- `NodeSummaryComputation` --references--> `SectionScoreSummary`  [EXTRACTED]
+  src/modules/analytics/analytics.service.ts → src/modules/analytics/entities/node-analytics-summary.entity.ts
 
 ## Import Cycles
 - None detected.
 
-## Communities (40 total, 8 thin omitted)
+## Communities (43 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.18
-Nodes (10): 17. Security, 20. License, 2. Tech Stack, 3. Project Structure, 5. Requirements, 9. Available Scripts, cercana-ti Backend — NestJS Template, Folder Responsibilities (+2 more)
+Cohesion: 0.14
+Nodes (13): 11. Authentication & Authorization, 17. Security, 20. License, 2. Tech Stack, 3. Project Structure, 5. Requirements, 9. Available Scripts, cercana-ti Backend — NestJS Template (+5 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.07
@@ -100,16 +102,16 @@ Cohesion: 0.11
 Nodes (17): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, experimentalDecorators, forceConsistentCasingInFileNames, incremental (+9 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.06
-Nodes (14): CommonModule, appConfig, DatabaseConfig, loggerConfig, redisConfig, Public(), ErrorResponse, GlobalExceptionFilter (+6 more)
+Cohesion: 0.05
+Nodes (17): CommonModule, appConfig, DatabaseConfig, loggerConfig, redisConfig, Public(), ErrorResponse, GlobalExceptionFilter (+9 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.07
-Nodes (29): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+21 more)
+Cohesion: 0.14
+Nodes (14): scripts, build, format, format:check, lint, start, start:debug, start:dev (+6 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.12
-Nodes (14): QuestionAnswerDto, RubricScoreDto, ReceiveEvaluationDto, ResponseStatusDto, SaveDraftDto, EvaluationResponse, QuestionResponse, RubricScoreEntry (+6 more)
+Cohesion: 0.14
+Nodes (12): QuestionAnswerDto, RubricScoreDto, ReceiveEvaluationDto, ResponseStatusDto, SaveDraftDto, EvaluationResponse, RubricScoreEntry, EvaluationResponseStatus (+4 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.17
@@ -180,48 +182,60 @@ Cohesion: 0.50
 Nodes (3): http, options, request
 
 ### Community 27 - "Community 27"
-Cohesion: 0.42
-Nodes (5): EvaluationResult, ManualReviewTask, SectionResult, EvaluationResultStatus, ManualReviewStatus
+Cohesion: 0.08
+Nodes (22): AdminClientModule, AnalyticsModule, AnalyticsService, NodeSummaryComputation, DISTRIBUTION_KEYS, HIERARCHY_NODE_TYPES, NationalOverviewDto, RegionalOverview (+14 more)
 
 ### Community 28 - "Community 28"
-Cohesion: 0.48
-Nodes (4): NodeAnalyticsSummary, ScoreDistribution, SectionScoreSummary, TeacherProgressSummary
+Cohesion: 0.15
+Nodes (13): MANUAL_REVIEW_QUESTION_TYPES, QUESTION_TYPES, QuestionResponse, ManualReviewCandidate, ScoringResult, SectionScoreResult, QuestionConfig, QuestionOption (+5 more)
 
 ### Community 29 - "Community 29"
 Cohesion: 0.29
 Nodes (7): 6. Environment Variables, Application, Database, Datadog APM (Optional), Logging, Rate Limiting, Security
 
+### Community 30 - "Community 30"
+Cohesion: 0.08
+Nodes (12): AdminClientService, AncestorsResponse, DescendantsResponse, HierarchyNodesResponse, PersonProfilesResponse, CacheEntry, TtlCache, AnalyticsJobData (+4 more)
+
 ### Community 31 - "Community 31"
 Cohesion: 0.33
 Nodes (6): 14. Logging & Monitoring, Datadog APM (Optional), Health Check Endpoints, Logging Stack, Pino HTTP Logger, Request Correlation
+
+### Community 32 - "Community 32"
+Cohesion: 0.07
+Nodes (17): CLASSIFICATION_FILL_COLORS, REPORT_TYPE_VALUES, REPORT_TYPES, RequestReportDto, ReportRequest, ReportRequestStatus, ReportsController, GeneratedFile (+9 more)
 
 ### Community 33 - "Community 33"
 Cohesion: 0.40
 Nodes (5): 13. Testing, Coverage Configuration, Running Tests, Strategy, Test Structure Example
 
-### Community 37 - "Community 37"
-Cohesion: 0.67
-Nodes (3): 11. Authentication & Authorization, Planned Authentication, Request Context (`@ClientContext`)
+### Community 40 - "Community 40"
+Cohesion: 0.22
+Nodes (9): jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment, testRegex, transform (+1 more)
+
+### Community 41 - "Community 41"
+Cohesion: 0.29
+Nodes (6): author, description, license, name, private, version
 
 ## Knowledge Gaps
-- **216 isolated node(s):** `PreToolUse`, `allow`, `eslint`, `tseslint`, `prettierRecommended` (+211 more)
+- **231 isolated node(s):** `PreToolUse`, `allow`, `eslint`, `tseslint`, `prettierRecommended` (+226 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `cercana-ti Backend — NestJS Template` connect `Community 0` to `Community 33`, `Community 37`, `Community 8`, `Community 10`, `Community 11`, `Community 12`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`, `Community 21`, `Community 29`, `Community 31`?**
-  _High betweenness centrality (0.061) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `Community 1` to `Community 5`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
-- **Why does `devDependencies` connect `Community 2` to `Community 5`?**
-  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+- **Why does `EvaluationResult` connect `Community 27` to `Community 32`, `Community 28`, `Community 37`?**
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **Why does `cercana-ti Backend — NestJS Template` connect `Community 0` to `Community 33`, `Community 8`, `Community 10`, `Community 11`, `Community 12`, `Community 16`, `Community 17`, `Community 18`, `Community 19`, `Community 20`, `Community 21`, `Community 29`, `Community 31`?**
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+- **Why does `LoggerService` connect `Community 30` to `Community 32`, `Community 4`, `Community 6`, `Community 27`, `Community 28`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **What connects `PreToolUse`, `allow`, `eslint` to the rest of the system?**
-  _216 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _231 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
