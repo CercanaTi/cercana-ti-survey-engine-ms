@@ -18,7 +18,9 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "typeorm": "typeorm-ts-node-commonjs"
+    "typeorm": "typeorm-ts-node-commonjs",
+    "seed:mock-data-engine": "ts-node -r tsconfig-paths/register src/database/seeders/seeder.ts mock-data-engine",
+    "seed:cleanup-mock-data-engine": "ts-node -r tsconfig-paths/register src/database/seeders/seeder.ts cleanup-mock-data-engine"
   },
   "dependencies": {
     "@nestjs/axios": "^4.0.1",
@@ -41,6 +43,7 @@
     "exceljs": "^4.4.0",
     "helmet": "^8.0.0",
     "ioredis": "^5.4.2",
+    "nest-commander": "^3.20.1",
     "nestjs-pino": "^4.3.0",
     "pdfmake": "^0.2.18",
     "pg": "^8.13.1",
@@ -56,10 +59,10 @@
     "@nestjs/schematics": "^11.1.0",
     "@nestjs/testing": "^11.1.24",
     "@types/compression": "^1.7.5",
-    "@types/pdfmake": "^0.2.11",
     "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^20.17.10",
+    "@types/pdfmake": "^0.2.11",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.4.0",
