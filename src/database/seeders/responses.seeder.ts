@@ -124,7 +124,10 @@ export class ResponseSeeder {
 
         let totalScore = 0;
         for (const question of surveyQuestions) {
-          const { textValue, numericValue, selectedOptionIds, fileUrl } = this.buildAnswer(question, i);
+          const { textValue, numericValue, selectedOptionIds, fileUrl } = this.buildAnswer(
+            question,
+            i,
+          );
 
           await questionResponseRepo.save(
             questionResponseRepo.create({
@@ -200,7 +203,10 @@ export class ResponseSeeder {
 
         const partialQuestions = surveyQuestions.slice(0, 3);
         for (const question of partialQuestions) {
-          const { textValue, numericValue, selectedOptionIds, fileUrl } = this.buildAnswer(question, i);
+          const { textValue, numericValue, selectedOptionIds, fileUrl } = this.buildAnswer(
+            question,
+            i,
+          );
 
           await questionResponseRepo.save(
             questionResponseRepo.create({
@@ -220,16 +226,16 @@ export class ResponseSeeder {
     }
 
     if (responseIds.length > 0) {
-      await manager.query(`UPDATE evaluation_responses SET seed_batch = $1 WHERE id = ANY($2::uuid[])`, [
-        SEED_BATCH,
-        responseIds,
-      ]);
+      await manager.query(
+        `UPDATE evaluation_responses SET seed_batch = $1 WHERE id = ANY($2::uuid[])`,
+        [SEED_BATCH, responseIds],
+      );
     }
     if (resultIds.length > 0) {
-      await manager.query(`UPDATE evaluation_results SET seed_batch = $1 WHERE id = ANY($2::uuid[])`, [
-        SEED_BATCH,
-        resultIds,
-      ]);
+      await manager.query(
+        `UPDATE evaluation_results SET seed_batch = $1 WHERE id = ANY($2::uuid[])`,
+        [SEED_BATCH, resultIds],
+      );
     }
 
     return { totalResponses: responseIds.length, totalResults: resultIds.length };
@@ -246,7 +252,12 @@ export class ResponseSeeder {
   } {
     switch (question.question_type) {
       case 'LIKERT':
-        return { textValue: null, numericValue: 1 + (index % 4), selectedOptionIds: null, fileUrl: null };
+        return {
+          textValue: null,
+          numericValue: 1 + (index % 4),
+          selectedOptionIds: null,
+          fileUrl: null,
+        };
       case 'SINGLE_CHOICE':
         return {
           textValue: null,
@@ -285,7 +296,12 @@ export class ResponseSeeder {
           fileUrl: `evidencia_docente_${String(index).padStart(3, '0')}.pdf`,
         };
       case 'NUMERIC':
-        return { textValue: null, numericValue: 1 + (index % 10), selectedOptionIds: null, fileUrl: null };
+        return {
+          textValue: null,
+          numericValue: 1 + (index % 10),
+          selectedOptionIds: null,
+          fileUrl: null,
+        };
       default:
         return { textValue: null, numericValue: null, selectedOptionIds: null, fileUrl: null };
     }
@@ -330,7 +346,9 @@ export class MockDataEngineCommand extends CommandRunner {
       [SEED_BATCH],
     );
     if (existing.length > 0) {
-      this.logger.warn(`Seed batch '${SEED_BATCH}' ya existe en evaluation_responses. Ejecuta cleanup primero.`);
+      this.logger.warn(
+        `Seed batch '${SEED_BATCH}' ya existe en evaluation_responses. Ejecuta cleanup primero.`,
+      );
       return;
     }
 
@@ -341,7 +359,9 @@ export class MockDataEngineCommand extends CommandRunner {
     try {
       const { totalResponses, totalResults } = await this.responseSeeder.run(queryRunner.manager);
       await queryRunner.commitTransaction();
-      this.logger.log(`✓ Respuestas y resultados (respuestas=${totalResponses}, resultados=${totalResults})`);
+      this.logger.log(
+        `✓ Respuestas y resultados (respuestas=${totalResponses}, resultados=${totalResults})`,
+      );
     } catch (error) {
       await queryRunner.rollbackTransaction();
       throw error;

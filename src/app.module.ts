@@ -9,7 +9,7 @@ import { LoggerModule } from 'nestjs-pino';
 import { DatabaseConfig } from './config/database.config';
 import { loggerConfig } from './config/logger.config';
 import { appConfig } from './config/app.config';
-import { redisConfig } from './config/redis.config';
+import { redisConfig, isRedisEnabled } from './config/redis.config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { RequestTrackingMiddleware } from './common/middlewares/correlation-id.middleware';
@@ -43,12 +43,16 @@ import { ResultsModule } from './modules/results/results.module';
       useClass: DatabaseConfig,
     }),
 
-    BullModule.forRootAsync({
-      inject: [ConfigService],
-      useFactory: (configService: ConfigService) => ({
-        connection: { url: configService.get<string>('redis.url') },
-      }),
-    }),
+    ...(isRedisEnabled()
+      ? [
+          BullModule.forRootAsync({
+            inject: [ConfigService],
+            useFactory: (configService: ConfigService) => ({
+              connection: { url: configService.get<string>('redis.url') },
+            }),
+          }),
+        ]
+      : []),
 
     CommonModule,
     ResponsesModule,

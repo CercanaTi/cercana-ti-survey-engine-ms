@@ -17,14 +17,16 @@ export class AddSeedBatchColumnAllTables1780800000001 implements MigrationInterf
   public async up(queryRunner: QueryRunner): Promise<void> {
     for (const table of this.tables) {
       await queryRunner.query(
-        `ALTER TABLE "${table}" ADD COLUMN "seed_batch" character varying(50) NULL`,
+        `ALTER TABLE IF EXISTS "${table}" ADD COLUMN IF NOT EXISTS "seed_batch" character varying(50) NULL`,
       );
     }
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
     for (const table of this.tables) {
-      await queryRunner.query(`ALTER TABLE "${table}" DROP COLUMN "seed_batch"`);
+      await queryRunner.query(
+        `ALTER TABLE IF EXISTS "${table}" DROP COLUMN IF EXISTS "seed_batch"`,
+      );
     }
   }
 }

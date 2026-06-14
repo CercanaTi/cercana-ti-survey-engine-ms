@@ -19,6 +19,9 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "typeorm": "typeorm-ts-node-commonjs",
+    "migration:generate": "typeorm-ts-node-commonjs migration:generate -d src/datasource.ts",
+    "migration:run": "typeorm-ts-node-commonjs migration:run -d src/datasource.ts",
+    "migration:revert": "typeorm-ts-node-commonjs migration:revert -d src/datasource.ts",
     "seed:mock-data-engine": "ts-node -r tsconfig-paths/register src/database/seeders/seeder.ts mock-data-engine",
     "seed:cleanup-mock-data-engine": "ts-node -r tsconfig-paths/register src/database/seeders/seeder.ts cleanup-mock-data-engine"
   },

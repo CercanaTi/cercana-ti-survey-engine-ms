@@ -1,4 +1,4 @@
-import { Module, OnModuleInit } from '@nestjs/common';
+import { Logger, Module, OnModuleInit } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { InjectQueue } from '@nestjs/bullmq';
 import { Queue } from 'bullmq';
@@ -8,6 +8,7 @@ import { NodeAnalyticsSummary } from '../analytics/entities/node-analytics-summa
 import { QueueModule } from '../queue/queue.module';
 import { REPORTS_QUEUE } from '../queue/queue.constants';
 import { AdminClientModule } from '../admin-client/admin-client.module';
+import { isRedisEnabled } from '../../config/redis.config';
 import { ReportRequest } from './entities/report-request.entity';
 import { ReportsService } from './reports.service';
 import { ReportsProcessor } from './reports.processor';
@@ -26,17 +27,25 @@ import { CLEANUP_CRON_PATTERN, CLEANUP_JOB_NAME } from './constants/reports.cons
     AdminClientModule,
   ],
   controllers: [ReportsController],
-  providers: [ReportsService, ReportsProcessor],
+  providers: [ReportsService, ...(isRedisEnabled() ? [ReportsProcessor] : [])],
   exports: [ReportsService],
 })
 export class ReportsModule implements OnModuleInit {
+  private readonly logger = new Logger(ReportsModule.name);
+
   constructor(@InjectQueue(REPORTS_QUEUE) private readonly reportsQueue: Queue) {}
 
   async onModuleInit(): Promise<void> {
-    await this.reportsQueue.add(
-      CLEANUP_JOB_NAME,
-      {},
-      { repeat: { pattern: CLEANUP_CRON_PATTERN }, jobId: CLEANUP_JOB_NAME },
-    );
+    try {
+      await this.reportsQueue.add(
+        CLEANUP_JOB_NAME,
+        {},
+        { repeat: { pattern: CLEANUP_CRON_PATTERN }, jobId: CLEANUP_JOB_NAME },
+      );
+    } catch (error) {
+      this.logger.warn(
+        `No se pudo programar el job de limpieza de reportes (Redis no disponible): ${(error as Error).message}`,
+      );
+    }
   }
 }

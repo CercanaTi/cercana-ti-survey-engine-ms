@@ -7,6 +7,7 @@ import { SectionResult } from '../results/entities/section-result.entity';
 import { ManualReviewTask } from '../results/entities/manual-review-task.entity';
 import { QueueModule } from '../queue/queue.module';
 import { AdminClientModule } from '../admin-client/admin-client.module';
+import { isRedisEnabled } from '../../config/redis.config';
 import { ScoringService } from './scoring.service';
 import { ScoringProcessor } from './scoring.processor';
 
@@ -22,7 +23,7 @@ import { ScoringProcessor } from './scoring.processor';
     QueueModule,
     AdminClientModule,
   ],
-  providers: [ScoringService, ScoringProcessor],
+  providers: [ScoringService, ...(isRedisEnabled() ? [ScoringProcessor] : [])],
   exports: [ScoringService],
 })
 export class ScoringModule {}

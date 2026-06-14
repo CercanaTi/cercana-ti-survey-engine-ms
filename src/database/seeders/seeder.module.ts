@@ -13,7 +13,12 @@ import { CleanupMockDataEngineCommand } from './cleanup-mock-data.command';
     TypeOrmModule.forRoot({
       ...AppDataSource.options,
     }),
-    TypeOrmModule.forFeature([EvaluationResponse, QuestionResponse, EvaluationResult, SectionResult]),
+    TypeOrmModule.forFeature([
+      EvaluationResponse,
+      QuestionResponse,
+      EvaluationResult,
+      SectionResult,
+    ]),
   ],
   providers: [ResponseSeeder, MockDataEngineCommand, CleanupMockDataEngineCommand],
 })
